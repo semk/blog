@@ -1,0 +1,234 @@
+---
+---
+
+/* ------------------------------------------------------------------------- *
+ * Constants                                                                 *
+ * ------------------------------------------------------------------------- */
+
+@base: #ffffff;
+@main: #33332d;
+@accent: #9fb4cc;
+@accent-dark: #63717f;
+@link: #d84105;
+@link-dark: #b85b36;
+@aside: #cccccc;
+
+/* ------------------------------------------------------------------------- *
+ * Universals                                                                *
+ * ------------------------------------------------------------------------- */
+
+body {
+  margin: auto;
+  width: 80%;
+
+  overflow-y: scroll;
+
+  background: @base;
+  color: @main;
+  font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
+  font-size: 14pt;
+}
+
+p, li {
+  margin: 1em 0;
+  line-height: 1.8em;
+}
+
+a {
+  color: @link;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+section {
+  padding: 0;
+}
+
+/* ------------------------------------------------------------------------- *
+ * Libraries                                                                 *
+ * ------------------------------------------------------------------------- */
+
+aside {
+  margin: 1em 2em;
+  padding: 0.3em;
+
+  background: @aside;
+
+  ul {
+    margin-bottom: 0;
+  }
+
+}
+
+/* ------------------------------------------------------------------------- *
+ * Templates                                                                 *
+ * ------------------------------------------------------------------------- */
+
+.site-header {
+  padding: 0.4em;
+
+  background: @accent;
+  color: @accent-dark;
+  font-family: 'Terminal Dosis Light', monospace;
+
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+
+    float: right;
+  }
+
+  li {
+    display: inline;
+    margin: 0.2em;
+    padding: 0.2em 0.5em;
+
+    list-style: none;
+
+    background: @link-dark;
+    font-weight: bold;
+  }
+
+  a {
+    color: @accent;
+  }
+}
+
+.site-footer {
+  margin: 4em 0;
+
+  text-align: center;
+  font-size: 0.75em;
+
+  #links {
+    margin: 1em;
+  }
+
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin: 0;
+    padding: 0 0.5em;
+
+    list-style: none;
+  }
+}
+
+.blog-post {
+  .blog-meta {
+    font-family: 'Terminal Dosis Light', sans-serif;
+  }
+
+  .blog-date {
+    float: right;
+  }
+}
+
+.projects {
+  margin: 2em 0;
+}
+
+.excerpt {
+  margin: 1em 0em;
+  padding: 0 0.6em;
+
+  header {
+    margin: 0 -0.6em 0 -0.6em;
+    padding: 0.6em;
+
+    background: @link-dark;
+
+    font-family: 'Terminal Dosis Light', sans-serif;
+
+    a {
+      color: @base; 
+    }
+
+    h1 {
+      display: inline;
+      font-size: 1.2em;
+    }
+
+    time {
+      float: right;
+    }
+  }
+
+  p.full-post {
+    text-align: right;
+
+    font-family: 'Terminal Dosis Light', sans-serif;
+    font-weight: bold;
+  }
+}
+
+.blog-nav {
+  margin: 0.6em 0;
+  padding-top: 0.4em;
+  min-height: 1em;
+  font-size: 0.8em;
+
+  .blog-prev {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .blog-next {
+    float: right;
+    margin-left: 1em;
+  }
+
+  hr {
+  }
+}
+
+.page-content {
+  margin: 1.6em 0;
+}
+
+#home-page {
+  line-height: 1.8em;
+
+  font-size: 1.8em;
+  font-style: oblique;
+}
+
+#disqus_thread {
+  margin: 1em 0;
+  padding: 0.3em;
+
+  background: @aside;
+  font-size: 0.8em;
+
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+/* ------------------------------------------------------------------------- *
+ * Browser Specific Support                                                  *
+ * ------------------------------------------------------------------------- */
+
+/* -- Firefox -------------------------------------------------------------- */
+
+section, header, footer, article, aside, nav {
+  display: block;
+}
+
