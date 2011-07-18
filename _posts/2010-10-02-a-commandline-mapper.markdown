@@ -4,7 +4,9 @@ title: A commandline mapper
 time: '23:28'
 ---
 
+<!--begin excerpt-->
 Python provides a builtin `map` function which applies a method over a list of entities. This function comes handy in a lot of situations as in
+<!--end excerpt-->
 
 {% highlight python %}
 # find the square of all integers in a list

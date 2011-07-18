@@ -4,7 +4,10 @@ layout: post
 time: '22:00'
 ---
 
-The 27th [Chaos Communication Congress](http://events.ccc.de/congress/2010/wiki/Welcome) revealed the [*Epic Programming Fail*](http://www.engadget.com/2010/12/29/hackers-obtain-ps3-private-cryptography-key-due-to-epic-programm/) on the PlayStation 3 security. Finally it turned  out that Sony's ECDSA algorithm for signing apps use a random number generator which always returns the same number (No, I'm not kidding). The [fail0verflow](http://fail0verflow.com) team, who found out this fail, used the following famous [xkcd](http://xkcd.com) comic to describe Sony's ECDSA algorithm.
+<!--begin excerpt-->
+The 27th [Chaos Communication Congress](http://events.ccc.de/congress/2010/wiki/Welcome) revealed the [*Epic Programming Fail*](http://www.engadget.com/2010/12/29/hackers-obtain-ps3-private-cryptography-key-due-to-epic-programm/) on the PlayStation 3 security. 
+<!--end excerpt-->
+Finally it turned  out that Sony's ECDSA algorithm for signing apps use a random number generator which always returns the same number (No, I'm not kidding). The [fail0verflow](http://fail0verflow.com) team, who found out this fail, used the following famous [xkcd](http://xkcd.com) comic to describe Sony's ECDSA algorithm.
 
 ![Random Number](http://imgs.xkcd.com/comics/random_number.png)
 

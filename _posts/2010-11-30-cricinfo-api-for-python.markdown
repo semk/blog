@@ -4,7 +4,9 @@ title: Cricinfo api (unofficial) for Python
 time: '18.00'
 ---
 
+<!--begin excerpt-->
 Recently I started developing a Python [library](https://github.com/semk/cricinfo) for accessing live information from [ESPN Cricinfo](http://espncricinfo.com) like live scores, innings details and player profiles. Currently, it only fetches live match information using a simple Python iterator.
+<!--end excerpt-->
 
 {% highlight python %}
 # instantiate

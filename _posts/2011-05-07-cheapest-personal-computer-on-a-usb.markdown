@@ -4,7 +4,9 @@ layout: post
 time: '22:15'
 ---
 
+<!--begin excerpt-->
 No one would have thought that they could ever buy a computer for $25. Thanks to the smart game developer from [Frontier Developments](http://www.frontier.co.uk/), [David Braben](http://en.wikipedia.org/wiki/David_Braben) who designed [Raspberry Pi](http://www.raspberrypi.org/), a $25 dollar computer with the size of a USB Stick, infact it is actually a USB Stick Computer. Have a look,
+<!--end excerpt-->
 
 ![Raspberry Pi](http://www.geek.com/wp-content/uploads/2011/05/rasperry_pi_pcb-580x435.jpg)
 

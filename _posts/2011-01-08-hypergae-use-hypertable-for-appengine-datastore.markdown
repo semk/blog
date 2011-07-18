@@ -4,7 +4,10 @@ layout: post
 time: '03:30'
 ---
 
-After few days of hacking on the [Google App Engine SDK](http://code.google.com/appengine/docs/python/overview.html) and [ProtocolBuffers](http://code.google.com/apis/protocolbuffers/docs/pythontutorial.html), finally I succeeded in creating a datastore driver for GAE that talks to [Hypertable](http://hypertable.org) and stores the data there *fully protocol buffer encoded*. If you want to checkout this implementation head to [HyperGAE](https://github.com/semk/hypergae) repository and see [files](https://github.com/semk/hypergae/tree/master/google/appengine/datastore) `datastore_hypertable_ht.py` and `datastore_hypertable_thrift.py`. HyperGAE basically uses two methods to connect to hypertable. Using the thrift api and using the boost-python library [ht](http://code.google.com/p/python-hypertable/). The mentioned drivers provides these api connections to hypertable.
+<!--begin excerpt-->
+After few days of hacking on the [Google App Engine SDK](http://code.google.com/appengine/docs/python/overview.html) and [ProtocolBuffers](http://code.google.com/apis/protocolbuffers/docs/pythontutorial.html), finally I succeeded in creating a datastore driver for GAE that talks to [Hypertable](http://hypertable.org) and stores the data there *fully protocol buffer encoded*.
+<!--end excerpt-->
+If you want to checkout this implementation head to [HyperGAE](https://github.com/semk/hypergae) repository and see [files](https://github.com/semk/hypergae/tree/master/google/appengine/datastore) `datastore_hypertable_ht.py` and `datastore_hypertable_thrift.py`. HyperGAE basically uses two methods to connect to hypertable. Using the thrift api and using the boost-python library [ht](http://code.google.com/p/python-hypertable/). The mentioned drivers provides these api connections to hypertable.
 
 To run App Engine sdk with hypertable support, do
 

@@ -4,7 +4,9 @@ layout: post
 time: '23:00'
 ---
 
+<!--begin excerpt-->
 Finally my wish came true. Now I'm a proud owner of an Android phone. Its LG Optimus One, better known as LG P500. Good that it comes with Froyo and LG promises an update to Gingerbread. Here you can find the phone [specs](http://www.gsmarena.com/lg_optimus_one_p500-3516.php).
+<!--end excerpt-->
 
 ![LG Optimus One](http://www.gadgetvenue.com/wp-content/uploads/2010/09/LG-optimus-one-300x300.jpg)
 

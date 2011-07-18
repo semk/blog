@@ -4,7 +4,10 @@ layout: post
 time: '14:45'
 ---
 
-I've seen many people jumping into web development with feature-complete frameworks like [Django](http://www.djangoproject.com/) and [Rails](http://rubyonrails.org/). But most of them will find it difficult to assimilate the web development concepts because of cluttered documentation (incase of Rails) or complexity (incase of Django). One might need to look at a simpler microframework to learn from scratch. And yes, [Flask](http://flask.pocoo.org/) is the one you'd want to have a look at.
+<!--begin excerpt-->
+I've seen many people jumping into web development with feature-complete frameworks like [Django](http://www.djangoproject.com/) and [Rails](http://rubyonrails.org/). But most of them will find it difficult to assimilate the web development concepts because of cluttered documentation (incase of Rails) or complexity (incase of Django). 
+<!--end excerpt-->
+One might need to look at a simpler microframework to learn from scratch. And yes, [Flask](http://flask.pocoo.org/) is the one you'd want to have a look at.
 
 Flask is a microframework for Python based on [Werkzeug](http://www.pocoo.org/projects/werkzeug/), and [Jinja 2](http://www.pocoo.org/projects/jinja2/). It is developed by the same guys at [Pocoo](http://www.pocoo.org/) who gave us [Sphinx](http://www.pocoo.org/projects/sphinx/) and [Pygments](http://www.pocoo.org/projects/pygments/) (a Python based syntax highlighter which beautifies the codes shown in this website). If you are new to the world of web development, with Flask you'd find it easier to understand the basics concepts like *sessions*, *cookie*, *templates* etc.
 

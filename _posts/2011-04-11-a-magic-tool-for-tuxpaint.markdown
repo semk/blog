@@ -4,7 +4,9 @@ layout: post
 time: '20:45'
 ---
 
+<!--begin excerpt-->
 [Tux Paint](http://tuxpaint.org/) is a drawing software for children that provides a kids-like user interface. Tuxpaint does have some nice tools integrated in it which helps the kids to create their drawing [masterpieces](http://tuxpaint.org/gallery/) using a computer. Simply speaking its the GIMP for kids of 3-12 years.
+<!--end excerpt-->
 
 But what I was excited about Tux Paint is the availability of [Magic Tool Plug-in API](http://www.tuxpaint.org/presentations/tuxpaint-magic-api.pdf) using which you can create Magic Tools that creates some sort of graphical effect on the canvas. Tux Paint already provides some Magic Tools by default like blur, bricks etc. Tux paint is fully written in C and uses [SDL](http://libsdl.org) for graphics programming. There are basically two kinds of tools we can create using the API. One that affects the whole canvas and one that updates a specific region of the canvas (eg. place where you drag the cursor).
 

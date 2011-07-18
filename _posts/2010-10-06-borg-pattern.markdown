@@ -4,7 +4,9 @@ title: Borg Pattern
 time: '10:45'
 ---
 
+<!--begin excerpt-->
 Singleton Design Patterns create all sorts of problems as you have exactly one instance for the singleton class throughout the program.
+<!--end excerpt-->
 
 {% highlight python %}
 # Singleton implementation using new-style classes
