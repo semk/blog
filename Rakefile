@@ -5,7 +5,7 @@ task :default => :server
  
 desc 'Build site with Jekyll'
 task :build do
-  jekyll
+  jekyll('--pygments')
 end
  
 desc 'Start server with --auto'
