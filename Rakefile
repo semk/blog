@@ -10,7 +10,7 @@ end
  
 desc 'Start server with --auto'
 task :server do
-  jekyll('--server --auto')
+  jekyll('--server --auto --pygments')
 end
 
 desc 'Build and deploy'
