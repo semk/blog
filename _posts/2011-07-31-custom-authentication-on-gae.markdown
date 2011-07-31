@@ -1,5 +1,5 @@
 ---
-title: Custom Authentication on Google App Engine
+title: Custom Authentication for Google App Engine apps
 layout: post
 time: '17:45'
 ---
